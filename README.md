@@ -9,7 +9,7 @@ You can include the Countdown.js library in your project by downloading the [`co
 
 ```html
 <script src="path/to/countdown.js"></script>
-
+```
 
 ### Usage
 To use Countdown.js, follow these steps:
@@ -19,6 +19,7 @@ Create an HTML element where you want the countdown to be displayed:
 
 ```html
 <div id="countdown"></div>
+```
 
 Initialize the countdown by calling the Countdown.init() function with the target date and the ID of the HTML element:
 
@@ -26,6 +27,7 @@ Initialize the countdown by calling the Countdown.init() function with the targe
 <script>
   Countdown.init('2023-12-31', 'countdown');
 </script>
+```
 
 ### Customization
 Countdown.js provides a basic countdown display format (days, hours, minutes, and seconds). You can customize the library to suit your needs by modifying the code.
