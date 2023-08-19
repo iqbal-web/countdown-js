@@ -16,6 +16,21 @@ or
 <script src="path/to/countdown.min.js"></script>
 ```
 
+
+### Using npm and Yarn:
+
+To install using npm:
+
+```html
+npm install countdown-js
+```
+
+To install using Yarn:
+
+```html
+yarn add countdown-js
+```
+
 ### Usage
 To use Countdown.js, follow these steps:
 
