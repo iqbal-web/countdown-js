@@ -10,6 +10,11 @@ You can include the Countdown.js library in your project by downloading the [`co
 ```html
 <script src="path/to/countdown.js"></script>
 ```
+or
+
+```html
+<script src="path/to/countdown.min.js"></script>
+```
 
 ### Usage
 To use Countdown.js, follow these steps:
