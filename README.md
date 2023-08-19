@@ -49,6 +49,13 @@ Initialize the countdown by calling the Countdown.init() function with the targe
 </script>
 ```
 
+### Frontend
+The frontend will be shown like this. You can modify it using css
+
+```html
+51d 8h 37m 25s
+```
+
 ### Customization
 Countdown.js provides a basic countdown display format (days, hours, minutes, and seconds). You can customize the library to suit your needs by modifying the code.
 
