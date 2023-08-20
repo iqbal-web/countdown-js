@@ -24,6 +24,7 @@ To install using npm:
 ```html
 npm install coundowntimer-js
 ```
+npmjs : https://www.npmjs.com/package/coundowntimer-js
 
 To install using Yarn:
 
