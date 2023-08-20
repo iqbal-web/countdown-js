@@ -17,7 +17,7 @@ or
 ```
 
 
-### Using npm and Yarn:
+### Using npm :
 
 To install using npm:
 
