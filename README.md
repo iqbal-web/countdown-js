@@ -26,11 +26,6 @@ npm install coundowntimer-js
 ```
 npmjs : https://www.npmjs.com/package/coundowntimer-js
 
-To install using Yarn:
-
-```html
-yarn add coundowntimer-js
-```
 
 ### Usage
 To use Countdown.js, follow these steps:
