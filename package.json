@@ -1,0 +1,24 @@
+{
+  "name": "coundowntimer-js",
+  "version": "1.0.0",
+  "description": "countdown",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/iqbal-web/countdown-js"
+  },
+  "keywords": [
+    "countdown",
+    "timer",
+    "clock",
+    "library"
+  ],
+  "author": "iqbal-web",
+  "license": "ISC"
+}

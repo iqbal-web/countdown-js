@@ -22,13 +22,13 @@ or
 To install using npm:
 
 ```html
-npm install countdown-js
+npm install coundowntimer-js
 ```
 
 To install using Yarn:
 
 ```html
-yarn add countdown-js
+yarn add coundowntimer-js
 ```
 
 ### Usage
