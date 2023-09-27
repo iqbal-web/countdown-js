@@ -1,0 +1,37 @@
+    /* Style the countdown wrapper */
+	.countdown-wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: Arial, sans-serif;
+		font-size: 24px;
+		color: #333;
+		background-color: #f1f1f1;
+		border-radius: 5px;
+		padding: 10px;
+		animation-duration: 10s; /* Duration of the rotation animation */
+		animation-timing-function: linear; /* Linear timing */
+		animation-iteration-count: infinite; /* Infinite loop */
+	  }
+	
+  
+	  /* Style individual countdown elements (days, hours, minutes, seconds) */
+	  .countdown-wrap div {
+		margin: 0 10px;
+		padding: 5px;
+		background-color: #333;
+		color: #fff;
+		border-radius: 5px;
+	  }
+
+
+	    /* Add transition for countdown elements */
+  .countdown-wrap div {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  /* Hover effect for countdown elements */
+  .countdown-wrap div:hover {
+    background-color: #555;
+    transform: scale(1.1);
+  }
