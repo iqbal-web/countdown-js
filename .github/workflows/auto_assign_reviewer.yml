@@ -11,15 +11,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Extract Author
+        id: extract_author
+        run: |
+          echo "::set-output name=author::$(git log -1 --pretty=format:'%an')"
+
       - name: Assign Reviewer
         uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.GIT_TOKEN }}
           script: |
             const github = context.github;
+            const author = "${{ steps.extract_author.outputs.author }}";
             github.pulls.createReviewRequest({
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: context.payload.pull_request.number,
-              reviewers: ["assassin"]
+              reviewers: [author]
             });
