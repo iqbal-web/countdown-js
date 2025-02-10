@@ -16,10 +16,14 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const issue = context.payload.issue || context.payload.pull_request;
-            const message = "👋 Hello! Thanks for opening this issue/PR. Our team will review it soon.";
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const message = `👋 Hello @${issue.user.login}! Thanks for opening this issue/PR in **${owner}/${repo}**. Our team will review it soon.`;
+
             github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
+              owner: owner,
+              repo: repo,
               issue_number: issue.number,
               body: message
             });
